@@ -4,6 +4,7 @@ const questionInput = document.getElementById("question");
 const resultTitle = document.getElementById("result-title");
 const resultSummary = document.getElementById("result-summary");
 const resultTime = document.getElementById("result-time");
+codex/create-homework-solver-website-co22gu
 const signupForm = document.getElementById("signup-form");
 const signupName = document.getElementById("signup-name");
 const signupEmail = document.getElementById("signup-email");
@@ -14,6 +15,8 @@ const loginUsername = document.getElementById("login-username");
 const loginPassword = document.getElementById("login-password");
 const loginLdap = document.getElementById("login-ldap");
 const loginStatus = document.getElementById("login-status");
+=======
+ main
 
 const formatSteps = (steps) => steps.map((step, index) => `${index + 1}. ${step}`).join(" ");
 
@@ -56,6 +59,7 @@ form.addEventListener("submit", async (event) => {
     resultTime.textContent = "Error";
   }
 });
+codex/create-homework-solver-website-co22gu
 
 signupForm.addEventListener("submit", async (event) => {
   event.preventDefault();
@@ -114,3 +118,5 @@ loginForm.addEventListener("submit", async (event) => {
     loginStatus.textContent = error.message;
   }
 });
+=======
+main
