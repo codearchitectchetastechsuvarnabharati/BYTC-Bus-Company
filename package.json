@@ -1,0 +1,12 @@
+{
+  "name": "homework-solver",
+  "version": "1.0.0",
+  "description": "Homework Solver full-stack demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
