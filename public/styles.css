@@ -234,6 +234,68 @@ textarea {
   flex-wrap: wrap;
 }
 
+codex/create-homework-solver-website-co22gu
+.auth {
+  padding: 64px 80px;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.auth-header p {
+  color: var(--muted);
+  margin-top: 8px;
+}
+
+.auth-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.auth-card {
+  background: var(--card);
+  padding: 28px;
+  border-radius: 22px;
+  border: 1px solid var(--border);
+  display: grid;
+  gap: 16px;
+}
+
+.auth-form {
+  display: grid;
+  gap: 14px;
+}
+
+.auth-form label {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.auth-form input {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+}
+
+.auth-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.auth-status {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+ main
 .features,
 .how,
 .subjects,
